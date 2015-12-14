@@ -1,0 +1,16 @@
+extends layout
+
+block content
+<<<<<<< 3ab258388425423497b5079844b8e730323d9ff0
+  h1= message
+  h2= error.status
+  pre #{error.stack}
+=======
+  .container
+    .panel.panel-danger(style='margin-top:2em')
+      .panel-heading
+        h3.panel-title= message
+      .panel-body
+        p= error.status
+    pre #{error.stack}
+>>>>>>> initial commit
